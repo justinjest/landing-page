@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex; 
+  }
+  
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    background: #1f2937;
+    color: #F9FAF8;
+    height: 100px;
+    flex: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.flex-container > .header-logo{
+    flex: 4;
+}
